@@ -378,7 +378,7 @@ static c_list_t *_c_list_merge(c_list_t *list1, c_list_t *list2,
     c_list_compare_fn func) {
   int cmp;
 
-  /* lists are emty */
+  /* lists are empty */
   if (list1 == NULL) {
     return list2;
   } else if (list2 == NULL) {
